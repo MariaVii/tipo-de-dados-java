@@ -12,4 +12,5 @@ public class EstruturaDeSelecao {
             System.out.print("Não esta apto ao Serviço Militar Obrigatório!");
     
 }
-    }
+}
+}
