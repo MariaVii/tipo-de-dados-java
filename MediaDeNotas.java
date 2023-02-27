@@ -19,7 +19,7 @@ public class MediaDeNotas {
 
     if (media >= 8 && media <= 10 )
     {
-        System.out.print(s:"Aluno está aprovado \n");
+        System.out.print("Aluno está aprovado \n");
 }else if (media >= 5 && media <= 7) {
     System.out.print("Aprovado, mas terá que fazer recuperação \n");
 } else if (media >= 0 && media <= 4) {
@@ -28,4 +28,4 @@ public class MediaDeNotas {
     System.out.print("erro na media \n");
 }
 }
-}
+
