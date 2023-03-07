@@ -12,23 +12,23 @@ public class imc {
         System.out.println("Digite sua altura: "); 
         altura = input.nextDouble(); 
  
-        imc + peso / (altura * altura);
+        imc = peso / (altura * altura);
         
         if (imc < 18.5) {
-            System.out.printf("o seu imc é" + "a faixa de peso correspondente é: abaixo do peso");
+            System.out.printf("o seu imc e" + "a faixa de peso correspondente é: abaixo do peso");
         } else if (imc <= 24.9){    
 
-           System.out.printf("o seu imc é" + "a faixa de peso correspondente é: Peso normal ");
+           System.out.printf("o seu imc e" + "a faixa de peso correspondente é: Peso normal ");
         } else if (imc <= 29.9){    
      
-            System.out.printf("o seu imc é" + "a faixa de peso correspondente é: Sobrepeso");
+            System.out.printf("o seu imc e" + "a faixa de peso correspondente é: Sobrepeso");
         } else if (imc <= 34.9){    
          
-            System.out.printf("o seu imc é" + "a faixa de peso correspondente é: Obesidade grau 1");
+            System.out.printf("o seu imc e" + "a faixa de peso correspondente é: Obesidade grau 1");
         } else if (imc <= 39.9){    
 
 
-            System.out.printf("o seu imc é" + "a faixa de peso correspondente é: Obesidade grau 2");
+            System.out.printf("o seu imc e" + "a faixa de peso correspondente é: Obesidade grau 2");
         } else if (imc <= 34.9){   
 
 
